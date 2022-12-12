@@ -1,0 +1,25 @@
+.TodoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.todoNameContainer {
+  display: flex;
+  width: 500px;
+}
+.todoName {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 17px;
+}
+.delete-button {
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
